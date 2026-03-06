@@ -1,0 +1,109 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.headingan h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.navbar{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar ul{
+    background-color: rgba(230, 213, 213, 0.917);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgba(186, 172, 172, 0.917);
+}
+
+.rumah{
+    display: flex;
+}
+.rumah img{
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10%;
+}
+
+.rumah article{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rumah b{
+    font-size: 40px;
+}
+
+.rumah p{
+    font-size: 30px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tentangsaya h2{
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+
+.tentangsaya article{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(230, 213, 213, 0.917);
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.projek h2{
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.projek table{
+    margin-left: 20px;
+}
+
+.projek table, th, td{
+    width: 1200px;
+    border: 1px solid black;
+}
+
+.projek th, td{
+    padding: 20px;
+}
+
+.kontak{
+    background-color: rgba(230, 213, 213, 0.917);
+    list-style-type: none;
+    margin: 0px;
+    
+}
+
+
