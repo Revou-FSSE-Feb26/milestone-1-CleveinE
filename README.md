@@ -5,7 +5,7 @@ This is a personal profiling of calvin marcellino
 
 ## live url
 
->
+> https://revou-fsse-feb26.github.io/milestone-1-CleveinE/
 
 ## Table of content
 ---
