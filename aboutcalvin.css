@@ -1,25 +1,39 @@
-html{
+body{
     margin: 0px;
     padding: 0px;
 }
 
+.headingan {
+    background-color: rgba(230, 213, 213, 0.917);
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
 .headingan h1{
-    text-align: center;
+    margin-right: auto;
+    background-color: rgba(230, 213, 213, 0.917);
     font-size: 50px;
+    padding-left: 20px;
 }
 
 .navbar{
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .navbar ul{
     background-color: rgba(230, 213, 213, 0.917);
+    display: flex;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    display: flex;
     justify-content: center;
+    gap: 10px;
+}
+
+.navbar li {
+    background-color: rgba(230, 213, 213, 0.917);
 }
 
 .navbar a{
@@ -37,12 +51,16 @@ html{
 .rumah{
     display: flex;
 }
-.rumah img{
-    width: 500px;
-    height: 400px;
+
+
+.rumah img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     margin-top: 20px;
     margin-left: 10px;
     border-radius: 10%;
+    object-fit: cover;
 }
 
 .rumah article{
@@ -75,10 +93,24 @@ hr{
 
 .tentangsaya article{
     margin: 20px;
-    padding: 20px;
+    padding: 5px 20px;
     background-color: rgba(230, 213, 213, 0.917);
-    padding: 0px;
     border-radius: 10px;
+}
+
+.projek {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.prolink:hover {
+    background-color: black;
+    color: white;
+    width: 10px;
+    height: 200px;
+    cursor: grab;
 }
 
 .projek h2{
@@ -106,4 +138,102 @@ hr{
     
 }
 
+/* mobile */
+@media screen and (max-width:468px) {
+    .headingan {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .headingan h1 {
+        margin-right: 0;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .navbar ul {
+        flex-direction: row;
+        gap: 5px;
+    }
+    
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .rumah {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rumah img {
+        width: 300px;
+        height: 250px;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    .rumah article {
+        padding-top: 20px;
+        margin: 0 20px 20px 20px;
+        text-align: center;
+    }
+    
+    .rumah b {
+        font-size: 24px;
+    }
+    
+    .rumah p {
+        font-size: 16px;
+    }
+    
+    .projek table {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .projek th:nth-child(2),
+    .projek th:nth-child(3),
+    .projek td:nth-child(2),
+    .projek td:nth-child(3) {
+        display: none;
+    }
+    
+    .projek th, .projek td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
 
+/* tablet */
+@media screen and (min-width:469px) and (max-width: 1024px) {
+    .projek table {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .projek th:nth-child(3),
+    .projek td:nth-child(3) {
+        display: none;
+    }
+    
+    .projek th, .projek td {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width:1025px) {
+    .projek table {
+        width: 1200px;
+        margin-left: 20px;
+    }
+    
+    .projek th, .projek td {
+        padding: 20px;
+        font-size: 16px;
+    }
+}

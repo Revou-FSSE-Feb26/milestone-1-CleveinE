@@ -27,6 +27,7 @@ This profile website it,s a website for you to know more about me.
 - **Project** : show my recent project that im doing.
 - **let,s be my Friend** : if you want to become my list of friend ,that form is for you
 - **Les,s get touch** : My contact to connect with me directly
+- **responsive&adaptive** : now the ebsite can show proprely in mobile, tablet and desktop
 
 ---
 
@@ -36,5 +37,9 @@ This profile website it,s a website for you to know more about me.
 - visual studio code
 - git
 - github
+
+## fixed bug
+- now the picture using a link inside the folder to prevent picture not showing up
+
 
 >Thanks For Reading
