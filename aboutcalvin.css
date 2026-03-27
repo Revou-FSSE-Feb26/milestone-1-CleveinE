@@ -19,6 +19,16 @@ body{
     padding-left: 20px;
 }
 
+.navbar ul{
+    background-color: rgba(230, 213, 213, 0.917);
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    gap: 10px;
+}
+
 .navbar li {
     background-color: rgba(230, 213, 213, 0.917);
 }
