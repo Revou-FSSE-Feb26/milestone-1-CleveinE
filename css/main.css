@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 
-.headingan {
+.heading {
     background-color: rgba(230, 213, 213, 0.917);
     height: 100px;
     display: flex;
@@ -12,10 +12,11 @@ body{
     
 }
 
-.headingan h1{
+.heading h1{
     margin-right: auto;
     background-color: rgba(230, 213, 213, 0.917);
     font-size: 50px;
+    font-family: 'Montserrat';
     padding-left: 20px;
 }
 
@@ -47,12 +48,12 @@ body{
     background-color: rgba(186, 172, 172, 0.917);
 }
 
-.rumah{
+.hero{
     display: flex;
 }
 
 
-.rumah img {
+.hero img {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -62,18 +63,18 @@ body{
     object-fit: cover;
 }
 
-.rumah article{
+.hero article{
     font-family: 'Times New Roman', Times, serif;
     padding-top: 100px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.rumah b{
+.hero b{
     font-size: 40px;
 }
 
-.rumah p{
+.hero p{
     font-size: 30px;
 }
 
@@ -84,20 +85,20 @@ hr{
     margin-right: 10px;
 }
 
-.tentangsaya h2{
+.myinfo h2{
     font-size: 40px;
     margin-left: 15px;
 }
 
 
-.tentangsaya article{
+.myinfo article{
     margin: 20px;
     padding: 5px 20px;
     background-color: rgba(230, 213, 213, 0.917);
     border-radius: 10px;
 }
 
-.projek {
+.portofolio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -107,30 +108,28 @@ hr{
 .prolink:hover {
     background-color: black;
     color: white;
-    width: 10px;
-    height: 200px;
     cursor: grab;
 }
 
-.projek h2{
+.portofolio h2{
     font-size: 40px;
     margin-left: 15px;
 }
 
-.projek table{
+.portofolio table{
     margin-left: 20px;
 }
 
-.projek table, th, td{
+.portofolio table, th, td{
     width: 1200px;
     border: 1px solid black;
 }
 
-.projek th, td{
+.portofolio th, td{
     padding: 20px;
 }
 
-.kontak{
+.contact{
     background-color: rgba(230, 213, 213, 0.917);
     list-style-type: none;
     margin: 0px;
@@ -138,13 +137,13 @@ hr{
 
 /* mobile */
 @media screen and (max-width:468px) {
-    .headingan {
+    .heading {
         flex-direction: column;
         height: auto;
         padding: 20px 0;
     }
     
-    .headingan h1 {
+    .heading h1 {
         margin-right: 0;
         font-size: 30px;
         padding-left: 20px;
@@ -161,45 +160,45 @@ hr{
         font-size: 14px;
     }
     
-    .rumah {
+    .hero {
         flex-direction: column;
         align-items: center;
     }
     
-    .rumah img {
+    .hero img {
         width: 300px;
         height: 250px;
         margin: 20px auto;
         display: block;
     }
     
-    .rumah article {
+    .hero article {
         padding-top: 20px;
         margin: 0 20px 20px 20px;
         text-align: center;
     }
     
-    .rumah b {
+    .hero b {
         font-size: 24px;
     }
     
-    .rumah p {
+    .hero p {
         font-size: 16px;
     }
     
-    .projek table {
+    .portofolio table {
         width: 100%;
         margin-left: 0;
     }
     
-    .projek th:nth-child(2),
-    .projek th:nth-child(3),
-    .projek td:nth-child(2),
-    .projek td:nth-child(3) {
+    .portofolio th:nth-child(2),
+    .portofolio th:nth-child(3),
+    .portofolio td:nth-child(2),
+    .portofolio td:nth-child(3) {
         display: none;
     }
     
-    .projek th, .projek td {
+    .portofolio th, .portofolio td {
         padding: 10px;
         font-size: 14px;
     }
@@ -207,17 +206,17 @@ hr{
 
 /* tablet */
 @media screen and (min-width:469px) and (max-width: 1024px) {
-    .projek table {
+    .portofolio table {
         width: 100%;
         margin-left: 0;
     }
     
-    .projek th:nth-child(3),
-    .projek td:nth-child(3) {
+    .portofolio th:nth-child(3),
+    .portofolio td:nth-child(3) {
         display: none;
     }
     
-    .projek th, .projek td {
+    .portofolio th, .portofolio td {
         padding: 15px;
         font-size: 16px;
     }
@@ -225,12 +224,12 @@ hr{
 
 /* desktop */
 @media screen and (min-width:1025px) {
-    .projek table {
+    .portofolio table {
         width: 1200px;
         margin-left: 20px;
     }
     
-    .projek th, .projek td {
+    .portofolio th, .portofolio td {
         padding: 20px;
         font-size: 16px;
     }

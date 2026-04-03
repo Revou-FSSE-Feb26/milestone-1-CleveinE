@@ -1,0 +1,99 @@
+/* mobile */
+@media screen and (max-width:468px) {
+    .heading {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .heading h1 {
+        margin-right: 0;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .navbar ul {
+        flex-direction: row;
+        gap: 5px;
+    }
+    
+    .navbar a {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero img {
+        width: 300px;
+        height: 250px;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    .hero article {
+        padding-top: 20px;
+        margin: 0 20px 20px 20px;
+        text-align: center;
+    }
+    
+    .hero b {
+        font-size: 24px;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    
+    .portofolio table {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .portofolio th:nth-child(2),
+    .portofolio th:nth-child(3),
+    .portofolio td:nth-child(2),
+    .portofolio td:nth-child(3) {
+        display: none;
+    }
+    
+    .portofolio th, .portofolio td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* tablet */
+@media screen and (min-width:469px) and (max-width: 1024px) {
+    .portofolio table {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .portofolio th:nth-child(3),
+    .portofolio td:nth-child(3) {
+        display: none;
+    }
+    
+    .portofolio th, .portofolio td {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+/* desktop */
+@media screen and (min-width:1025px) {
+    .portofolio table {
+        width: 1200px;
+        margin-left: 20px;
+    }
+    
+    .portofolio th, .portofolio td {
+        padding: 20px;
+        font-size: 16px;
+    }
+}
